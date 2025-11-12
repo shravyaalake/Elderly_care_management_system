@@ -1,0 +1,63 @@
+/* Global Dashboard Styling */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Arial', sans-serif;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboard-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-section-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.dashboard-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.dashboard-table th {
+    background-color: #f1f4f5;
+    color: #34495e;
+    padding: 10px;
+    text-align: left;
+}
+
+.dashboard-table td {
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.btn-dashboard {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-dashboard:hover {
+    background-color: #2980b9;
+}
